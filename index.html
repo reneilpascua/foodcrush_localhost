@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+		<title>FoodCrush</title>
+		<script type="text/javascript" src="js/phaser.js"></script>
+		<script type="text/javascript" src="js/phaser-input.js"></script>
+		<script type="text/javascript" src="js/states/boot.js"></script>
+		<script type="text/javascript" src="js/states/preload.js"></script>
+		<script type="text/javascript" src="js/states/game.js"></script>
+		<script type="text/javascript" src="js/prefabs/board.js"></script>
+        <script type="text/javascript" src="js/prefabs/block.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+		<style>
+		  body {
+		  	background-color: black;
+		    padding: 0px;
+		    margin: 0px;
+		  }
+	  </style>
+	</head>
+
+	<body>
+			<script>
+					window.fbAsyncInit = function () {
+							FB.init({
+									appId: '261699777902620',
+									cookie: true,
+									xfbml: true,
+									version: 'v3.0'
+							});
+		
+							FB.AppEvents.logPageView();
+		
+					};
+		
+					(function (d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) { return; }
+							js = d.createElement(s); js.id = id;
+							js.src = "https://connect.facebook.net/en_US/sdk.js";
+							fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));
+			</script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>

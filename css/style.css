@@ -1,0 +1,12 @@
+html {
+    height: 100%;
+    background-color: black; 
+    filter: blur(50%);
+    background-size: cover;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
