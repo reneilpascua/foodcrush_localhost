@@ -3,9 +3,9 @@
     $data = array("status" => "fail", "msg" => "On $methodType");
 
     $servername = "localhost";
-    $dblogin = "foodcrus_taylor";
-    $password = "group26publishedmilk";
-    $dbname = "foodcrus_scores";
+    $dblogin = "reneil";
+    $password = "reneilpw";
+    $dbname = "foodcrush_scores";
 
     if ($methodType === 'POST') {
 
